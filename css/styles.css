@@ -88,7 +88,7 @@ i:hover {
 
 /* NavBar Top*/
 .navbar-toggler-icon {
-    background-image: url("/img/burguer.png");
+    background-image: url("../img/burguer.png");
 }
 
 #navbar-principal {
@@ -152,7 +152,7 @@ i:hover {
 }
 
 #about ul {
-    list-style-image: url('/img/bulletp.png');
+    list-style-image: url('../img/bulletp.png');
 }
 
 /* Section: Education*/

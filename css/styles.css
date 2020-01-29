@@ -110,6 +110,15 @@ i:hover {
     color: #89D2DC;
 }
 
+@media(max-width: 380px){
+    #title .header{
+        font-size: 4rem;
+    }
+    #title .description{
+        font-size: 3rem;
+    }
+}
+
 @media (max-width: 770px) {
     .container-nav{
         display: none;

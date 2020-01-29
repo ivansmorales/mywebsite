@@ -263,6 +263,9 @@ i:hover {
     #awards .ex-description{
         font-size: 1.3125rem;
     }
+    #title .paragraph {
+        top: 3.75rem;
+    }
 }
 
 @media (max-width: 770px) {

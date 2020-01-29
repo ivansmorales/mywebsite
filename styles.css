@@ -1,0 +1,275 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #070707;
+    color: #BBCDE5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-weight: normal;
+}
+
+.standard-p {
+    font-size: 1.25rem;
+    color: rgba(187, 205, 229, 0.71);
+}
+
+span {
+    color: #B2FFD6;
+}
+
+input::placeholder {
+    color: #070707;
+    margin-right: 10%;
+    font-size: 1.25rem;
+}
+
+/* Left NavBar */
+
+.container-nav {
+    position: fixed;
+    top: 40%;
+    left: 4%;
+}
+
+.container-nav li {
+    margin-bottom: 30px;
+}
+
+i {
+    color: #fff;
+}
+
+i:hover {
+    color: #89D2DC;
+}
+
+/* Containers */
+.container-fluid {
+    padding: 10% 15%;
+}
+
+.title {
+    font-size: 3.125rem;
+    line-height: 7rem;
+}
+
+/* Section: Title*/
+
+#title .container-fluid {
+    padding: 14% 15% 7%;
+}
+
+#title .principal {
+    font-family: 'Montserrat';
+    font-size: 1.5625rem;
+    color: #B2FFD6;
+}
+
+#title .header {
+    font-size: 5rem;
+}
+
+#title .description {
+    color: rgba(187, 205, 229, 0.46);
+    font-size: 4.063rem;
+}
+
+#title .paragraph {
+    position: relative;
+    top: 3.75rem;
+    width: 45.5%;
+}
+
+/* NavBar Top*/
+.navbar-toggler-icon {
+    background-image: url("./img/burguer.png");
+}
+
+#navbar-principal {
+    padding: 2rem 2.2rem 0;
+}
+
+#navbar-principal-resume {
+    padding-right: 10rem;
+    padding-top: 2rem;
+    padding-left: 2.2rem;
+}
+
+.nav-a-style {
+    font-size: 1.25rem;
+    color: #BBCDE5;
+}
+
+.nav-a-style:hover {
+    color: #89D2DC;
+}
+
+@media(max-width: 380px){
+    #title .header{
+        font-size: 4rem;
+    }
+    #title .description{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 770px) {
+    .container-nav{
+        display: none;
+    }
+    .navbar{
+        padding: 4% 6% 2%;
+    }
+    
+    #awards img {
+        margin-top: 15%;
+    }
+}
+
+@media (max-width: 990px){
+    .navbar{
+        padding: 4% 6% 0;
+    }
+}
+
+/* Section: About*/
+/* mtr: Margin-Top in Row*/
+
+#about .paragraph {
+    width: 97%;
+}
+
+#about img {
+    margin-left: 15%;
+    width: 75%;
+    fill: #B2FFD6;
+}
+
+#about ul {
+    list-style-image: url('./img/bulletp.png');
+}
+
+/* Section: Education*/
+#education .title {
+    text-align: center;
+}
+
+#education .container {
+    padding: 4% 15%;
+    border: 1px solid #B2FFD6;
+    border-radius: 5px;
+}
+
+#education .header {
+    color: #89D2DC;
+    font-weight: 500;
+    font-size: 1.875rem;
+}
+
+#education .description {
+    color: rgba(187, 205, 229, 0.71);
+    font-size: 1.375rem;
+    font-weight: 200;
+    margin: 4% 0 4% 0;
+}
+
+#education .dates {
+    color: rgba(187, 205, 229, 0.55);
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+.little {
+    font-size: 0.7rem;
+}
+
+.location {
+    color: rgba(187, 205, 229, 0.5);
+    font-size: 0.875rem;
+    line-height: 2rem;
+}
+
+.grade {
+    color: rgba(187, 205, 229, 0.71);
+    font-size: 1rem;
+    margin-bottom: 0%;
+}
+
+/* Section: Awards*/
+#awards .header {
+    color: #89D2DC;
+    font-size: 1.875rem;
+}
+
+#awards .container {
+    padding: 4% 5%;
+    border: 1px solid #B2FFD6;
+    border-radius: 5px;
+}
+
+.carousel-indicators li {
+    background-color: #89D2DC;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+}
+
+#awards .description {
+    color: rgba(187, 205, 229, 0.9);
+    font-size: 1.5625rem;
+    font-weight: 300;
+}
+
+#awards .ex-description {
+    font-size: 1.3125rem;
+}
+
+#awards img {
+    width: 100%;
+}
+
+/* Section: Contact*/
+#contact .header {
+    color: rgba(187, 205, 229, 0.71);
+    font-size: 2.0rem;
+    margin-bottom: 3rem;
+}
+
+#contact .container-fluid {
+    margin-top: 5rem;
+}
+
+.map-responsive {
+    position: relative;
+    overflow: hidden;
+    height: 0;
+    margin-bottom: 4rem;
+    padding-bottom: 70%;
+    border-radius: 0.25rem;
+}
+
+.btn-primary {
+    color: #89D2DC;
+    background-color: #070707;
+    border-color: #89D2DC;
+}
+
+.btn-primary:hover {
+    color: #89D2DC;
+    background-color: rgba(137, 210, 220, 0.2);
+    border-color: #89D2DC;
+}
+
+/* Section: Footer*/
+#footer .container-fluid {
+    background-color: #000000;
+    text-align: center;
+    padding: 3% 12%;
+}

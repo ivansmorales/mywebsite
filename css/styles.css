@@ -91,14 +91,12 @@ i:hover {
     background-image: url("../img/burguer.png");
 }
 
-#navbar-principal {
-    padding: 2rem 2.2rem 0;
+.ul-style{
+    padding: 2rem 10rem 0;
 }
 
-#navbar-principal-resume {
-    padding-right: 10rem;
-    padding-top: 2rem;
-    padding-left: 2.2rem;
+#title .nav-link{
+    padding: 0 2rem 0;
 }
 
 .nav-a-style {

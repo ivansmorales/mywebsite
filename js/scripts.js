@@ -18,6 +18,41 @@
     });
 
     /*
+        Animation for navbar
+    */
+    $(window).on("load", function () {
+        $('#title .1').css('color', '#000');
+        $('#title .2').css('color', '#000');
+        $('#title .3').css('color', '#000');
+        $('#title .4').css('color', '#000');
+        $('#title .5').css('color', '#000');
+
+        setTimeout(function () {
+            $('#title .1').css("color", "#BBCDE5");
+        }, 1000);
+        setTimeout(function () {
+            $('#title .2').css("color", "#BBCDE5");
+        }, 1300);
+        setTimeout(function () {
+            $('#title .3').css("color", "#BBCDE5");
+        }, 1600);
+        setTimeout(function () {
+            $('#title .4').css("color", "#BBCDE5");
+        }, 1900);
+        setTimeout(function () {
+            $('#title .5').css("color", "#BBCDE5");
+        }, 2200);
+
+        /*
+        $('#title .1').fadeOut('fast').delay(1000).fadeIn('fast');
+        $('#title .2').fadeOut('fast').delay(1100).fadeIn('fast');
+        $('#title .3').fadeOut('fast').delay(1200).fadeIn('fast');
+        $('#title .4').fadeOut('fast').delay(1300).fadeIn('fast');
+        $('#title .5').fadeOut('fast').delay(1400).fadeIn('fast'); */
+        //$('.container-fluid .principal').fadeOut('fast').delay(1000).fadeIn('fast');
+	});
+
+    /*
         Function to send email through a form.
     */
 

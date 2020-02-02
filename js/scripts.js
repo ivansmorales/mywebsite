@@ -48,6 +48,7 @@
         $("#education").css('visibility','visible').hide(0).delay(2800).fadeIn();
         $("#awards").css('visibility','visible').hide(0).delay(2800).fadeIn();
         $("#contact").css('visibility','visible').hide(0).delay(2800).fadeIn();
+        $("#footer").css('visibility','visible').hide(0).delay(2800).fadeIn();
 
     });
     

@@ -34,15 +34,28 @@
         $('#title .description').css('visibility','visible').hide(0).delay(1500).fadeIn();
         $('#title .paragraph').css('visibility','visible').hide(0).delay(1600).slideDown();
 
-        $(".container-nav").css('visibility','visible').hide(0).delay(2200).fadeIn();
+        var width = $(window).width();
+        if (width < 400){
+            $(".container-nav").hide(0);
+        }else{
+            $(".container-nav").css('visibility','visible').hide(0).delay(2200).fadeIn();
+        }
 
         $("#about .title").css('visibility','visible').hide(0).delay(2200).fadeIn();
         $("#about .paragraph").css('visibility','visible').hide(0).delay(2400).fadeIn();
         $("#about img").css('visibility','visible').hide(0).delay(2600).fadeIn();
         $("#about ul").css('visibility','visible').hide(0).delay(2800).fadeIn();
+        $("#education").css('visibility','visible').hide(0).delay(2800).fadeIn();
+        $("#awards").css('visibility','visible').hide(0).delay(2800).fadeIn();
+        $("#contact").css('visibility','visible').hide(0).delay(2800).fadeIn();
 
     });
     
+    /* 
+        Dissapear nav-left on mobile screens
+    */
+
+
     /*
         Function to send email through a form.
     */

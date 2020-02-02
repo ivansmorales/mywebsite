@@ -69,7 +69,11 @@ i:hover {
 
 /* Section: Title*/
 
-.container-nav, #title, #about{
+.navbar-toggler{
+    visibility: visible;
+}
+
+.container-nav, #title, #about, #education, #awards, #contact, #footer{
     visibility: hidden;
 }
 
@@ -257,6 +261,9 @@ i:hover {
 
 /* Media querys */
 @media(max-width: 380px){
+    .container-nav{
+        display: none;
+    }
     #title .nav-link {
         padding: 0 0 0;
     }

@@ -103,6 +103,7 @@ i:hover {
 }
 
 /* NavBar Top*/
+
 .navbar-toggler-icon {
     background-image: url("../img/burguer.png");
 }
@@ -110,6 +111,11 @@ i:hover {
 .ul-style{
     padding: 2rem 10rem 0;
 }
+
+#title .navbar{
+    background-color: #070707;
+}
+
 
 #title .nav-link{
     padding: 0 2rem 0;

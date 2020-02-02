@@ -19,6 +19,14 @@ p {
     color: rgba(187, 205, 229, 0.71);
 }
 
+::-moz-selection { /* Code for Firefox */
+    background: rgb(146, 146, 146);
+}
+
+::selection {
+  background: rgb(146, 146, 146);
+}
+
 span {
     color: #B2FFD6;
 }
@@ -246,23 +254,72 @@ i:hover {
 
 /* Media querys */
 @media(max-width: 380px){
+    #title .nav-link {
+        padding: 0 0 0;
+    }
+    .ul-style {
+        padding: 0 0 0;
+        text-align: center;
+    }
+    .nav-item{
+        margin: 1rem 0 1.4rem 0;
+    }
+    #title .container-fluid {
+        padding: 20% 13% 9%;
+    }
+    #title .principal {
+        font-size: 1.2rem;
+    }
     #title .header{
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
     #title .description{
-        font-size: 3rem;
-    }
-    #education .header {
-        font-size: 1.375rem;
-    }
-    #awards .description{
-        font-size: 1.4rem;
-    }
-    #awards .ex-description{
-        font-size: 1.3125rem;
+        font-size: 2.3rem;
     }
     #title .paragraph {
-        top: 3.75rem;
+        top: 1.7rem;
+        width: 77.5%;
+    }
+    #about .paragraph{
+        width: 100%;
+    }
+    #education .col-lg-2{
+        text-align: center;
+    }
+    #education .itesm-logo{
+        width: 45%;
+    }
+    #education .header {
+        font-size: 1rem;
+    }
+    #education .description {
+        font-size: 0.9rem;
+    }
+    #education .dates {
+        font-size: 0.7rem;
+    }
+    #education .elipse-img {
+        width: 5%;
+    }
+    #education .location {
+        font-size: 0.875rem;
+        line-height: 0rem;
+    }
+    #education .grade {
+        font-size: 0.75rem;
+        margin-bottom: 0%;
+    }
+    #awards .header {
+        font-size: 1.6rem;
+    }
+    #awards .description{
+        font-size: 1.2rem;
+    }
+    #awards .ex-description{
+        font-size: 1.15rem;
+    }
+    #contact .header {
+        font-size: 1.5rem;
     }
 }
 

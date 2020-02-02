@@ -42,7 +42,7 @@
         }
 
         $("#about .title").css('visibility','visible').hide(0).delay(2200).fadeIn();
-        $("#about .paragraph").css('visibility','visible').hide(0).delay(2400).fadeIn();
+        $("#about .standard-p").css('visibility','visible').hide(0).delay(2400).fadeIn();
         $("#about img").css('visibility','visible').hide(0).delay(2600).fadeIn();
         $("#about ul").css('visibility','visible').hide(0).delay(2800).fadeIn();
         $("#education").css('visibility','visible').hide(0).delay(2800).fadeIn();

@@ -37,6 +37,10 @@ input::placeholder {
     font-size: 1.25rem;
 }
 
+.container-nav, #title, #about, #education, #awards, #contact, #footer{
+    visibility: hidden;
+}
+
 /* Left NavBar */
 
 .container-nav {
@@ -73,10 +77,6 @@ i:hover {
     visibility: visible;
 }
 
-.container-nav, #title, #about, #education, #awards, #contact, #footer{
-    visibility: hidden;
-}
-
 #title .container-fluid {
     padding: 14% 15% 7%;
 }
@@ -111,13 +111,11 @@ i:hover {
 .ul-style{
     padding: 2rem 10rem 0;
 }
-
-#title .navbar-default {
-    background-color: #070707;
-    background: red !important;
+/*
+.ul-style{
+    padding: 2rem 10rem 0;
 }
-
-
+*/
 #title .nav-link{
     padding: 0 2rem 0;
 }
@@ -271,9 +269,9 @@ i:hover {
     .container-nav{
         display: none;
     }
-        .navbar-collapse {
-        background: red;
-      }
+    .fixed-top{
+        position: static;
+    }
     #title .nav-link {
         padding: 0 0 0;
     }

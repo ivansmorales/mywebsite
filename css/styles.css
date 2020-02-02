@@ -279,6 +279,7 @@ i:hover {
     #title .paragraph {
         top: 1.7rem;
         width: 77.5%;
+        font-size: 1.0rem;
     }
     #about .paragraph{
         width: 100%;

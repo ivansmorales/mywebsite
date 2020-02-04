@@ -23,6 +23,8 @@
         Animation for webpage
     */
     $(window).on("load", function () {
+
+        $(".navbar-brand").css('visibility','visible').hide(0).delay(600).fadeIn();
         
         $("#title .1").css('visibility','visible').hide(0).delay(800).slideDown();
         $("#title .2").css('visibility','visible').hide(0).delay(800).slideDown();
@@ -38,17 +40,14 @@
         var width = $(window).width();
         if (width < 400){
             $(".container-nav").hide(0);
-            
         }else{
             $(".container-nav").css('visibility','visible').hide(0).delay(2200).fadeIn();
-            
         }
-
-        // if(width < 900){
-        //     $('.navbar-toggler').css('visibility','visible').hide(0).delay(800).fadeIn();
-        // }else{
-        //     $(".navbar-toggler").hide(0);
-        // }
+        if(width > 400){
+            $(".navbar-toggler").hide(0);
+        }else{
+            $(".navbar-toggler").css('visibility','visible').hide(0).delay(600).fadeIn();
+        }
 
         $("#about .title").css('visibility','visible').hide(0).delay(2200).fadeIn();
         $("#about .standard-p").css('visibility','visible').hide(0).delay(2400).fadeIn();

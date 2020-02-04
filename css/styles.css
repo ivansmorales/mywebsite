@@ -113,7 +113,7 @@ i:hover {
 }
 
 .ul-style {
-    padding: 2rem 10rem 0;
+    padding: 2rem 10rem 1rem;
 }
 
 .nav-a-style {
@@ -197,6 +197,9 @@ i:hover {
     padding: 4% 5%;
     border: 1px solid #B2FFD6;
     border-radius: 5px;
+}
+.carousel-item{
+    height: 24.063;
 }
 
 .carousel-indicators li {
@@ -314,6 +317,9 @@ i:hover {
     #education .grade {
         font-size: 0.75rem;
         margin-bottom: 0%;
+    }
+    #awards .carousel-item{
+        height: 26.75rem;
     }
     #awards .header {
         font-size: 1.6rem;

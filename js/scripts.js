@@ -47,7 +47,7 @@
             $(".navbar-toggler").hide(0);
         }else{
             $(".navbar-toggler").css('visibility','visible').hide(0).delay(600).fadeIn();
-        }
+        }   
 
         $("#about .title").css('visibility','visible').hide(0).delay(2200).fadeIn();
         $("#about .standard-p").css('visibility','visible').hide(0).delay(2400).fadeIn();

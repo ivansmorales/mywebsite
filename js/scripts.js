@@ -37,8 +37,16 @@
         var width = $(window).width();
         if (width < 400){
             $(".container-nav").hide(0);
+            
         }else{
             $(".container-nav").css('visibility','visible').hide(0).delay(2200).fadeIn();
+            
+        }
+
+        if(width < 900){
+            $('.navbar-toggler').css('visibility','visible').hide(0).delay(800).fadeIn();
+        }else{
+            $(".navbar-toggler").hide(0);
         }
 
         $("#about .title").css('visibility','visible').hide(0).delay(2200).fadeIn();

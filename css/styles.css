@@ -37,7 +37,7 @@ input::placeholder {
     font-size: 1.25rem;
 }
 
-.container-nav, #title, #about, #education, #awards, #contact, #footer{
+.container-nav, .navbar-toggler, #title, #about, #education, #awards, #contact, #footer{
     visibility: hidden;
 }
 
@@ -72,11 +72,6 @@ i:hover {
 }
 
 /* Section: Title*/
-
-.navbar-toggler{
-    visibility: visible;
-}
-
 #title .container-fluid {
     padding: 14% 15% 7%;
 }
@@ -104,18 +99,15 @@ i:hover {
 
 /* NavBar Top*/
 
+.fixed-top{
+    visibility: visible;
+    background: #070707;
+}
+
 .navbar-toggler-icon {
     background-image: url("../img/burguer.png");
 }
 
-.ul-style{
-    padding: 2rem 10rem 0;
-}
-/*
-.ul-style{
-    padding: 2rem 10rem 0;
-}
-*/
 #title .nav-link{
     padding: 0 2rem 0;
 }
@@ -266,31 +258,25 @@ i:hover {
 
 /* Media querys */
 @media(max-width: 380px){
-    .container-nav{
-        display: none;
-    }
-    .fixed-top{
-        position: static;
-    }
     #title .nav-link {
         padding: 0 0 0;
     }
-    .ul-style {
-        padding: 0 0 0;
+    .navbar-toggler{
         text-align: center;
+        padding-bottom: 1.25rem;
     }
     .nav-item{
         margin: 1rem 0 1.4rem 0;
     }
     #title .container-fluid {
-        padding: 20% 13% 9%;
+        padding: 10% 13% 9%;
     }
     #title .principal {
         font-size: 1.2rem;
+        padding-top: 2rem;
     }
     #title .header{
         font-size: 3.5rem;
-        
     }
     #title .description{
         font-size: 2.3rem;
@@ -353,6 +339,10 @@ i:hover {
 }
 
 @media (max-width: 990px){
+    .navbar-toggler{
+        text-align: center;
+        padding-bottom: 1.25rem;
+    }
     .navbar{
         padding: 4% 6% 0;
     }

@@ -98,6 +98,15 @@ i:hover {
 }
 
 /* NavBar Top*/
+.navbar-brand{
+    color: #B2FFD6;
+    font-size: 2rem;
+    padding-left: 10%;
+}
+.navbar-brand:hover{
+    color: #B2FFD6;
+}
+
 
 .fixed-top{
     visibility: visible;

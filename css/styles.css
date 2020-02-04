@@ -112,6 +112,10 @@ i:hover {
     padding: 0 2rem 0;
 }
 
+.ul-style {
+    padding: 2rem 10rem 0;
+}
+
 .nav-a-style {
     font-size: 1.25rem;
     color: #BBCDE5;
@@ -261,10 +265,6 @@ i:hover {
     #title .nav-link {
         padding: 0 0 0;
     }
-    .navbar-toggler{
-        text-align: center;
-        padding-bottom: 1.25rem;
-    }
     .nav-item{
         margin: 1rem 0 1.4rem 0;
     }
@@ -330,19 +330,22 @@ i:hover {
 }
 
 @media (max-width: 770px) {
+    .navbar-collapse{
+        text-align: center;
+        padding-bottom: 1.25rem;
+    }
     .container-nav{
         display: none;
     }
     .navbar{
         padding: 4% 6% 2%;
     }
+    .ul-style {
+        padding: 0 0 0;
+    }
 }
 
 @media (max-width: 990px){
-    .navbar-toggler{
-        text-align: center;
-        padding-bottom: 1.25rem;
-    }
     .navbar{
         padding: 4% 6% 0;
     }

@@ -1,19 +1,50 @@
 (function ($) {
     "use strict";
 
+    /* 
+        Function for preloader.
+    */
+    //Text to span.
+    const text = document.querySelector(".preloader");
+    const strText = text.textContent;
+    const splitText = strText.split("");
+    text.textContent = "";
+
+    for (let i = 0; i < splitText.length; i++) {
+        text.innerHTML += "<m>" + splitText[i] + "</m>";
+    }
+
+    let char = 0;
+    let timer = setInterval(onTick, 50)
+
+    function onTick() {
+        const span = text.querySelectorAll('m')[char];
+        span.classList.add('fade');
+        char++
+        if (char === splitText.length) {
+            complete();
+            return;
+        }
+    }
+
+    function complete() {
+        clearInterval(timer);
+        timer = null;
+    }
+
     /*
         Function to hide navbar when scroll down and show navbar when scroll up.
     */
-    var firstypos = window.pageYOffset;    
+    var firstypos = window.pageYOffset;
     $(window).scroll(function () {
         var currentypos = window.pageYOffset;
-        if(currentypos === 0){
+        if (currentypos === 0) {
             $('.fixed-top').fadeIn();
             $('.fixed-top').css("background-color", "#070707");
-        }else if (firstypos > currentypos) {
+        } else if (firstypos > currentypos) {
             $('.fixed-top').fadeIn();
             $('.fixed-top').css("background-color", "#000");
-        }else{
+        } else {
             $('.fixed-top').fadeOut();
         }
         firstypos = currentypos;
@@ -24,41 +55,41 @@
     */
     $(window).on("load", function () {
 
-        $(".navbar-brand").css('visibility','visible').hide(0).delay(600).fadeIn();
-        $("#title .1").css('visibility','visible').hide(0).delay(800).slideDown();
-        $("#title .2").css('visibility','visible').hide(0).delay(800).slideDown();
-        $("#title .3").css('visibility','visible').hide(0).delay(800).slideDown();
-        $("#title .4").css('visibility','visible').hide(0).delay(800).slideDown();
-        $("#title .5").css('visibility','visible').hide(0).delay(800).slideDown();
+        $(".navbar-brand").css('visibility', 'visible').hide(0).delay(600).fadeIn();
+        $("#title .1").css('visibility', 'visible').hide(0).delay(800).slideDown();
+        $("#title .2").css('visibility', 'visible').hide(0).delay(800).slideDown();
+        $("#title .3").css('visibility', 'visible').hide(0).delay(800).slideDown();
+        $("#title .4").css('visibility', 'visible').hide(0).delay(800).slideDown();
+        $("#title .5").css('visibility', 'visible').hide(0).delay(800).slideDown();
 
-        $('#title .principal').css('visibility','visible').hide(0).delay(1300).fadeIn();
-        $('#title .header').css('visibility','visible').hide(0).delay(1400).fadeIn();
-        $('#title .description').css('visibility','visible').hide(0).delay(1500).fadeIn();
-        $('#title .paragraph').css('visibility','visible').hide(0).delay(1600).slideDown();
+        $('#title .principal').css('visibility', 'visible').hide(0).delay(1300).fadeIn();
+        $('#title .header').css('visibility', 'visible').hide(0).delay(1400).fadeIn();
+        $('#title .description').css('visibility', 'visible').hide(0).delay(1500).fadeIn();
+        $('#title .paragraph').css('visibility', 'visible').hide(0).delay(1600).slideDown();
 
         var width = $(window).width();
-        if (width < 400){
+        if (width < 400) {
             $(".container-nav").hide(0);
-        }else{
-            $(".container-nav").css('visibility','visible').hide(0).delay(2200).fadeIn();
+        } else {
+            $(".container-nav").css('visibility', 'visible').hide(0).delay(2200).fadeIn();
         }
-        if(width > 400){
+        if (width > 400) {
             $(".navbar-toggler").hide(0);
-        }else{
-            $(".navbar-toggler").css('visibility','visible').hide(0).delay(600).fadeIn();
-        }   
+        } else {
+            $(".navbar-toggler").css('visibility', 'visible').hide(0).delay(600).fadeIn();
+        }
 
-        $("#about .title").css('visibility','visible').hide(0).delay(2200).fadeIn();
-        $("#about .standard-p").css('visibility','visible').hide(0).delay(2400).fadeIn();
-        $("#about img").css('visibility','visible').hide(0).delay(2600).fadeIn();
-        $("#about ul").css('visibility','visible').hide(0).delay(2800).fadeIn();
-        $("#education").css('visibility','visible').hide(0).delay(2800).fadeIn();
-        $("#awards").css('visibility','visible').hide(0).delay(2800).fadeIn();
-        $("#contact").css('visibility','visible').hide(0).delay(2800).fadeIn();
-        $("#footer").css('visibility','visible').hide(0).delay(2800).fadeIn();
+        $("#about .title").css('visibility', 'visible').hide(0).delay(2200).fadeIn();
+        $("#about .standard-p").css('visibility', 'visible').hide(0).delay(2400).fadeIn();
+        $("#about img").css('visibility', 'visible').hide(0).delay(2600).fadeIn();
+        $("#about ul").css('visibility', 'visible').hide(0).delay(2800).fadeIn();
+        $("#education").css('visibility', 'visible').hide(0).delay(2800).fadeIn();
+        $("#awards").css('visibility', 'visible').hide(0).delay(2800).fadeIn();
+        $("#contact").css('visibility', 'visible').hide(0).delay(2800).fadeIn();
+        $("#footer").css('visibility', 'visible').hide(0).delay(2800).fadeIn();
 
     });
-    
+
     /* 
         Dissapear nav-left on mobile screens
     */

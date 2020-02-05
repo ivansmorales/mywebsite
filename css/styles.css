@@ -1,3 +1,27 @@
+/* Preloader */
+
+#preloader-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.preloader {
+    color: #BBCDE5;
+    font-size: 8rem;
+    font-weight: bold;
+}
+
+m {
+    transition: all 2s ease;
+    text-decoration-style: none;
+}
+
+m.fade {
+    color: #B2FFD6;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #070707;
@@ -19,12 +43,13 @@ p {
     color: rgba(187, 205, 229, 0.71);
 }
 
-::-moz-selection { /* Code for Firefox */
+::-moz-selection {
+    /* Code for Firefox */
     background: rgb(146, 146, 146);
 }
 
 ::selection {
-  background: rgb(146, 146, 146);
+    background: rgb(146, 146, 146);
 }
 
 span {
@@ -37,7 +62,15 @@ input::placeholder {
     font-size: 1.25rem;
 }
 
-.navbar-brand, .container-nav, .navbar-toggler, #title, #about, #education, #awards, #contact, #footer{
+.navbar-brand,
+.container-nav,
+.navbar-toggler,
+#title,
+#about,
+#education,
+#awards,
+#contact,
+#footer {
     visibility: hidden;
 }
 
@@ -98,21 +131,22 @@ i:hover {
 }
 
 /* NavBar Top*/
-.navbar-brand{
+.navbar-brand {
     color: #B2FFD6;
     font-size: 2rem;
     padding-left: 10%;
 }
-.navbar-brand:hover{
+
+.navbar-brand:hover {
     color: #B2FFD6;
 }
 
-.fixed-top{
+.fixed-top {
     visibility: hidden;
     background: #070707;
 }
 
-.navbar-toggler{
+.navbar-toggler {
     visibility: visible;
 }
 
@@ -120,7 +154,7 @@ i:hover {
     background-image: url("../img/burguer.png");
 }
 
-#title .nav-link{
+#title .nav-link {
     padding: 0 2rem 0;
 }
 
@@ -210,7 +244,8 @@ i:hover {
     border: 1px solid #B2FFD6;
     border-radius: 5px;
 }
-.carousel-item{
+
+.carousel-item {
     height: 24.063rem;
 }
 
@@ -276,108 +311,135 @@ i:hover {
 }
 
 /* Media querys */
-@media(max-width: 380px){
+@media(max-width: 380px) {
     #title .nav-link {
         padding: 0 0 0;
     }
+
     #title .container-fluid {
         padding: 10% 13% 9%;
     }
+
     #title .principal {
         font-size: 1.2rem;
         padding-top: 3rem;
     }
-    #title .header{
+
+    #title .header {
         font-size: 3.5rem;
     }
-    #title .description{
+
+    #title .description {
         font-size: 2.3rem;
     }
+
     #title .paragraph {
         top: 1.7rem;
         width: 77.5%;
         font-size: 1.0rem;
     }
-    #about .paragraph{
+
+    #about .paragraph {
         width: 100%;
     }
-    #education .col-lg-2{
+
+    #education .col-lg-2 {
         text-align: center;
     }
-    #education .itesm-logo{
+
+    #education .itesm-logo {
         width: 45%;
     }
+
     #education .header {
         font-size: 1rem;
     }
+
     #education .description {
         font-size: 0.9rem;
     }
+
     #education .dates {
         font-size: 0.7rem;
     }
+
     #education .elipse-img {
         width: 5%;
     }
+
     #education .location {
         font-size: 0.875rem;
         line-height: 0rem;
     }
+
     #education .grade {
         font-size: 0.75rem;
         margin-bottom: 0%;
     }
-    #awards .carousel-item{
+
+    #awards .carousel-item {
         height: 26.75rem;
     }
+
     #awards .header {
         font-size: 1.6rem;
     }
-    #awards .description{
+
+    #awards .description {
         font-size: 1.2rem;
     }
-    #awards .ex-description{
+
+    #awards .ex-description {
         font-size: 1.15rem;
     }
+
     #contact .header {
         font-size: 1.5rem;
     }
 }
 
 @media (max-width: 770px) {
-    .navbar-collapse{
+    .navbar-collapse {
         text-align: center;
         padding-bottom: 1.25rem;
     }
-    .container-nav{
+
+    .container-nav {
         display: none;
     }
-    .navbar{
+
+    .navbar {
         padding: 4% 6% 2%;
     }
+
     .ul-style {
         padding: 0 0 0;
     }
 }
 
-@media (max-width: 990px){
-    .navbar-collapse{
+@media (max-width: 990px) {
+    .navbar-collapse {
         text-align: center;
         padding-bottom: 1.25rem;
     }
-    .navbar{
+
+    .navbar {
         padding: 4% 6% 2%;
     }
+
     #awards img {
         margin-top: 15%;
     }
-    .nav-item{
+
+    .nav-item {
         margin: 1rem 0 1.4rem 0;
     }
-    .navbar-toggler{
+
+    .navbar-toggler {
         visibility: hidden;
     }
-    .fixed-top{
+
+    .fixed-top {
         visibility: visible;
     }
 }

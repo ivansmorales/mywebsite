@@ -7,17 +7,21 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ivan Morales</title>
 
+    <!-- JSAP-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1.1/gsap.min.js"></script>
+
     <!--  Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap" rel="stylesheet">
 
     <!--  Styles -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
 
     <!--  Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/3fdad2e440.js" crossorigin="anonymous"></script>
 
     <!--  Scripts -->
@@ -30,7 +34,6 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3NL697GH6ZA78nY-jQBcgtqFJJqxNaqg"></script>
-    <script src="js/scripts.js"></script>
 
     <!-- Favicon  -->
     <link rel="icon" href="img/favicon.ico">
@@ -38,6 +41,10 @@
 </head>
 
 <body>
+    <section id="preloader-container">
+        <h1 class="preloader">im.</h1>
+    </section>
+
     <div class="container-nav">
         <nav class="nav">
             <ul class="nav flex-column">
@@ -97,7 +104,8 @@
                             City</span>, who loves web
                         design
                         and
-                        development. I develop amazing websites and web apps that provide beautiful user interfaces with
+                        development. I develop amazing websites and web apps that provide beautiful user interfaces
+                        with
                         an
                         excellent user experience.
                     </p>
@@ -126,7 +134,8 @@
                         <a class="header">Instituto Tecnológico y de Estudios Superiores de Monterrey
                         </a>
                         <h2 class="description">Bachelor of Computer Science and Technology</h2>
-                        <p class="dates">Aug 2017 - Jun 2021 <img src="img/elipse.png" alt="" class="elipse-img"> 4 <a class="little">1/2
+                        <p class="dates">Aug 2017 - Jun 2021 <img src="img/elipse.png" alt="" class="elipse-img"> 4
+                            <a class="little">1/2
                             </a> years</p>
                         <p class="location">Ciudad de Mexico, Mexico</p>
                         <p class="grade">Cum. GPA: 3.3/4.0</p>
@@ -155,23 +164,26 @@
                                 <h2 class="description">ITESM CEM | Apr 2019</h2>
                                 <p class="ex-description">Third place winners of the Phishing challenge proposed by
                                     <span>Banorte</span>. <br>
-                                    The challenge was to create a solution against Phishing: we developed a fake link
+                                    The challenge was to create a solution against Phishing: we developed a fake
+                                    link
                                     detector
                                     based
                                     on a
-                                    scientific paper and used <span>IBM</span>'s Watson technology to recognize them.
+                                    scientific paper and used <span>IBM</span>'s Watson technology to recognize
+                                    them.
                                 </p>
-                                
+
                             </div>
                             <div class="carousel-item">
                                 <h1 class="header">ACADEMIC EXCELLENCE</h1>
                                 <h2 class="description">ITESM CCM | Ene - May 2019 </h2>
-                                <p class="ex-description">Given to all students who obtain a GPA greater than or equal
+                                <p class="ex-description">Given to all students who obtain a GPA greater than or
+                                    equal
                                     to 3.75
                                     throughout the whole
                                     semester and
                                     taking 6 or more subjects.</p>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -210,7 +222,8 @@
                             <label for="inputEmail">Email</label>
                             <input name="email" type="email" class="form-control" id="inputEmail"
                                 placeholder="Enter email">
-                            <small id="emailHelp" class="form-text text-muted aux-div2">I'll never share your email with
+                            <small id="emailHelp" class="form-text text-muted aux-div2">I'll never share your email
+                                with
                                 anyone
                                 else.</small>
                         </div>
@@ -233,5 +246,6 @@
 
     </section>
 </body>
+<script src="js/scripts.js"></script>
 
 </html>

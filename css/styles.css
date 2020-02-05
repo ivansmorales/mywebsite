@@ -108,8 +108,12 @@ i:hover {
 }
 
 .fixed-top{
-    visibility: visible;
+    visibility: hidden;
     background: #070707;
+}
+
+.navbar-toggler{
+    visibility: visible;
 }
 
 .navbar-toggler-icon {
@@ -276,9 +280,6 @@ i:hover {
     #title .nav-link {
         padding: 0 0 0;
     }
-    .nav-item{
-        margin: 1rem 0 1.4rem 0;
-    }
     #title .container-fluid {
         padding: 10% 13% 9%;
     }
@@ -360,10 +361,23 @@ i:hover {
 }
 
 @media (max-width: 990px){
+    .navbar-collapse{
+        text-align: center;
+        padding-bottom: 1.25rem;
+    }
     .navbar{
-        padding: 4% 6% 0;
+        padding: 4% 6% 2%;
     }
     #awards img {
         margin-top: 15%;
+    }
+    .nav-item{
+        margin: 1rem 0 1.4rem 0;
+    }
+    .navbar-toggler{
+        visibility: hidden;
+    }
+    .fixed-top{
+        visibility: visible;
     }
 }

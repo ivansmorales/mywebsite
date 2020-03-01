@@ -56,6 +56,7 @@
     $(window).on("load", function () {
 
         $(".navbar-brand").css('visibility', 'visible').hide(0).delay(600).fadeIn();
+        $(".fixed-top").css('visibility', 'visible').hide(0).delay(600).fadeIn();
         $("#title .1").css('visibility', 'visible').hide(0).delay(800).slideDown();
         $("#title .2").css('visibility', 'visible').hide(0).delay(800).slideDown();
         $("#title .3").css('visibility', 'visible').hide(0).delay(800).slideDown();

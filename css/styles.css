@@ -1,31 +1,31 @@
 /* Preloader */
 
 #preloader-container {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .preloader {
-    color: #BBCDE5;
-    font-size: 8rem;
-    font-weight: bold;
+  color: #bbcde5;
+  font-size: 8rem;
+  font-weight: bold;
 }
 
 m {
-    transition: all 2s ease;
-    text-decoration-style: none;
+  transition: all 2s ease;
+  text-decoration-style: none;
 }
 
 m.fade {
-    color: #B2FFD6;
+  color: #b2ffd6;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #070707;
-    color: #BBCDE5;
+  font-family: "Poppins", sans-serif;
+  background-color: #070707;
+  color: #bbcde5;
 }
 
 h1,
@@ -35,31 +35,31 @@ h4,
 h5,
 h6,
 p {
-    font-weight: normal;
+  font-weight: normal;
 }
 
 .standard-p {
-    font-size: 1.25rem;
-    color: rgba(187, 205, 229, 0.71);
+  font-size: 1.25rem;
+  color: rgba(187, 205, 229, 0.71);
 }
 
 ::-moz-selection {
-    /* Code for Firefox */
-    background: rgb(146, 146, 146);
+  /* Code for Firefox */
+  background: rgb(146, 146, 146);
 }
 
 ::selection {
-    background: rgb(146, 146, 146);
+  background: rgb(146, 146, 146);
 }
 
 span {
-    color: #B2FFD6;
+  color: #b2ffd6;
 }
 
 input::placeholder {
-    color: #070707;
-    margin-right: 10%;
-    font-size: 1.25rem;
+  color: #070707;
+  margin-right: 10%;
+  font-size: 1.25rem;
 }
 
 .navbar-brand,
@@ -71,375 +71,381 @@ input::placeholder {
 #awards,
 #contact,
 #footer {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 /* Left NavBar */
 
 .container-nav {
-    position: fixed;
-    top: 40%;
-    left: 4%;
+  position: fixed;
+  top: 40%;
+  left: 4%;
 }
 
 .container-nav li {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 i {
-    color: #fff;
+  color: #fff;
 }
 
 i:hover {
-    color: #89D2DC;
+  color: #89d2dc;
 }
 
 /* Containers */
 .container-fluid {
-    padding: 10% 15%;
+  padding: 10% 15%;
 }
 
 .title {
-    font-size: 3.125rem;
-    line-height: 7rem;
+  font-size: 3.125rem;
+  line-height: 7rem;
 }
 
 /* Section: Title*/
 #title .container-fluid {
-    padding: 14% 15% 7%;
+  padding: 14% 15% 7%;
 }
 
 #title .principal {
-    font-family: 'Montserrat';
-    font-size: 1.5625rem;
-    color: #B2FFD6;
+  font-family: "Montserrat";
+  font-size: 1.5625rem;
+  color: #b2ffd6;
 }
 
 #title .header {
-    font-size: 5rem;
+  font-size: 5rem;
 }
 
 #title .description {
-    color: rgba(187, 205, 229, 0.46);
-    font-size: 4.063rem;
+  color: rgba(187, 205, 229, 0.46);
+  font-size: 4.063rem;
 }
 
 #title .paragraph {
-    position: relative;
-    top: 3.75rem;
-    width: 45.5%;
+  position: relative;
+  top: 3.75rem;
+  width: 45.5%;
 }
 
 /* NavBar Top*/
 .navbar-brand {
-    color: #B2FFD6;
-    font-size: 2rem;
-    padding-left: 10%;
+  color: #b2ffd6;
+  font-size: 2rem;
+  padding-left: 10%;
 }
 
 .navbar-brand:hover {
-    color: #B2FFD6;
+  color: #b2ffd6;
 }
 
 .fixed-top {
-    visibility: hidden;
-    background: #070707;
+  visibility: hidden;
+  background: #070707;
 }
 
 .navbar-toggler {
-    visibility: visible;
+  visibility: visible;
 }
 
 .navbar-toggler-icon {
-    background-image: url("../img/burguer.png");
+  background-image: url("../img/burguer.png");
 }
 
 #title .nav-link {
-    padding: 0 2rem 0;
+  padding: 0 2rem 0;
 }
 
 .ul-style {
-    padding: 2rem 10rem 1rem;
+  padding: 2rem 10rem 1rem;
 }
 
 .nav-a-style {
-    font-size: 1.25rem;
-    color: #BBCDE5;
+  font-size: 1.25rem;
+  color: #bbcde5;
 }
 
 .nav-a-style:hover {
-    color: #89D2DC;
+  color: #89d2dc;
 }
 
 /* Section: About*/
 
 #about .paragraph {
-    width: 97%;
+  width: 97%;
 }
 
 #about img {
-    margin-left: 15%;
-    width: 75%;
-    fill: #B2FFD6;
+  margin-left: 15%;
+  width: 75%;
+  fill: #b2ffd6;
 }
 
 #about ul {
-    list-style-image: url('../img/bulletp.png');
+  list-style-image: url("../img/bulletp.png");
 }
 
 /* Section: Education*/
 #education .title {
-    text-align: center;
+  text-align: center;
 }
 
 #education .container {
-    padding: 4% 15%;
-    border: 1px solid #B2FFD6;
-    border-radius: 5px;
+  padding: 4% 15%;
+  border: 1px solid #b2ffd6;
+  border-radius: 5px;
 }
 
 #education .header {
-    color: #89D2DC;
-    font-weight: 500;
-    font-size: 1.875rem;
+  color: #89d2dc;
+  font-weight: 500;
+  font-size: 1.875rem;
 }
 
 #education .description {
-    color: rgba(187, 205, 229, 0.71);
-    font-size: 1.375rem;
-    font-weight: 200;
-    margin: 4% 0 4% 0;
+  color: rgba(187, 205, 229, 0.71);
+  font-size: 1.375rem;
+  font-weight: 200;
+  margin: 4% 0 4% 0;
 }
 
 #education .dates {
-    color: rgba(187, 205, 229, 0.55);
-    font-size: 1rem;
-    line-height: 1rem;
+  color: rgba(187, 205, 229, 0.55);
+  font-size: 1rem;
+  line-height: 1rem;
 }
 
 .little {
-    font-size: 0.7rem;
+  font-size: 0.7rem;
 }
 
 .location {
-    color: rgba(187, 205, 229, 0.5);
-    font-size: 0.875rem;
-    line-height: 2rem;
+  color: rgba(187, 205, 229, 0.5);
+  font-size: 0.875rem;
+  line-height: 2rem;
 }
 
 .grade {
-    color: rgba(187, 205, 229, 0.71);
-    font-size: 1rem;
-    margin-bottom: 0%;
+  color: rgba(187, 205, 229, 0.71);
+  font-size: 1rem;
+  margin-bottom: 0%;
 }
 
 /* Section: Awards*/
 #awards .header {
-    color: #89D2DC;
-    font-size: 1.875rem;
+  color: #89d2dc;
+  font-size: 1.875rem;
 }
 
 #awards .container {
-    padding: 4% 5%;
-    border: 1px solid #B2FFD6;
-    border-radius: 5px;
+  padding: 4% 5%;
+  border: 1px solid #b2ffd6;
+  border-radius: 5px;
 }
 
 .carousel-item {
-    height: 24.063rem;
+  height: 24.063rem;
 }
 
 .carousel-indicators li {
-    background-color: #89D2DC;
+  background-color: #89d2dc;
 }
 
 .carousel-indicators .active {
-    opacity: 1;
+  opacity: 1;
 }
 
 #awards .description {
-    color: rgba(187, 205, 229, 0.9);
-    font-size: 1.5625rem;
-    font-weight: 300;
+  color: rgba(187, 205, 229, 0.9);
+  font-size: 1.5625rem;
+  font-weight: 300;
 }
 
-#awards .ex-description {
-    font-size: 1.3125rem;
+#awards .ex-description,
+.certificate-section {
+  font-size: 1.3125rem;
+}
+
+#awards .href-description {
+  color: #b2ffd6;
+  text-decoration: none;
 }
 
 #awards img {
-    width: 100%;
+  width: 100%;
 }
 
 /* Section: Contact*/
 #contact .header {
-    color: rgba(187, 205, 229, 0.71);
-    font-size: 2.0rem;
-    margin-bottom: 3rem;
+  color: rgba(187, 205, 229, 0.71);
+  font-size: 2rem;
+  margin-bottom: 3rem;
 }
 
 #contact .container-fluid {
-    margin-top: 5rem;
+  margin-top: 5rem;
 }
 
 .map-responsive {
-    position: relative;
-    overflow: hidden;
-    height: 0;
-    margin-bottom: 4rem;
-    padding-bottom: 70%;
-    border-radius: 0.25rem;
+  position: relative;
+  overflow: hidden;
+  height: 0;
+  margin-bottom: 4rem;
+  padding-bottom: 70%;
+  border-radius: 0.25rem;
 }
 
 .btn-primary {
-    color: #89D2DC;
-    background-color: #070707;
-    border-color: #89D2DC;
+  color: #89d2dc;
+  background-color: #070707;
+  border-color: #89d2dc;
 }
 
 .btn-primary:hover {
-    color: #89D2DC;
-    background-color: rgba(137, 210, 220, 0.2);
-    border-color: #89D2DC;
+  color: #89d2dc;
+  background-color: rgba(137, 210, 220, 0.2);
+  border-color: #89d2dc;
 }
 
 /* Section: Footer*/
 #footer .container-fluid {
-    background-color: #000000;
-    text-align: center;
-    padding: 3% 12%;
+  background-color: #000000;
+  text-align: center;
+  padding: 3% 12%;
 }
 
 /* Media querys */
-@media(max-width: 380px) {
-    #title .nav-link {
-        padding: 0 0 0;
-    }
+@media (max-width: 380px) {
+  #title .nav-link {
+    padding: 0 0 0;
+  }
 
-    #title .container-fluid {
-        padding: 10% 13% 9%;
-    }
+  #title .container-fluid {
+    padding: 10% 13% 9%;
+  }
 
-    #title .principal {
-        font-size: 1.2rem;
-        padding-top: 3rem;
-    }
+  #title .principal {
+    font-size: 1.2rem;
+    padding-top: 3rem;
+  }
 
-    #title .header {
-        font-size: 3.5rem;
-    }
+  #title .header {
+    font-size: 3.5rem;
+  }
 
-    #title .description {
-        font-size: 2.3rem;
-    }
+  #title .description {
+    font-size: 2.3rem;
+  }
 
-    #title .paragraph {
-        top: 1.7rem;
-        width: 77.5%;
-        font-size: 1.0rem;
-    }
+  #title .paragraph {
+    top: 1.7rem;
+    width: 77.5%;
+    font-size: 1rem;
+  }
 
-    #about .paragraph {
-        width: 100%;
-    }
+  #about .paragraph {
+    width: 100%;
+  }
 
-    #education .col-lg-2 {
-        text-align: center;
-    }
+  #education .col-lg-2 {
+    text-align: center;
+  }
 
-    #education .itesm-logo {
-        width: 45%;
-    }
+  #education .itesm-logo {
+    width: 45%;
+  }
 
-    #education .header {
-        font-size: 1rem;
-    }
+  #education .header {
+    font-size: 1rem;
+  }
 
-    #education .description {
-        font-size: 0.9rem;
-    }
+  #education .description {
+    font-size: 0.9rem;
+  }
 
-    #education .dates {
-        font-size: 0.7rem;
-    }
+  #education .dates {
+    font-size: 0.7rem;
+  }
 
-    #education .elipse-img {
-        width: 5%;
-    }
+  #education .elipse-img {
+    width: 5%;
+  }
 
-    #education .location {
-        font-size: 0.875rem;
-        line-height: 0rem;
-    }
+  #education .location {
+    font-size: 0.875rem;
+    line-height: 0rem;
+  }
 
-    #education .grade {
-        font-size: 0.75rem;
-        margin-bottom: 0%;
-    }
+  #education .grade {
+    font-size: 0.75rem;
+    margin-bottom: 0%;
+  }
 
-    #awards .carousel-item {
-        height: 26.75rem;
-    }
+  #awards .carousel-item {
+    height: 26.75rem;
+  }
 
-    #awards .header {
-        font-size: 1.6rem;
-    }
+  #awards .header {
+    font-size: 1.6rem;
+  }
 
-    #awards .description {
-        font-size: 1.2rem;
-    }
+  #awards .description {
+    font-size: 1.2rem;
+  }
 
-    #awards .ex-description {
-        font-size: 1.15rem;
-    }
+  #awards .ex-description {
+    font-size: 1.15rem;
+  }
 
-    #contact .header {
-        font-size: 1.5rem;
-    }
+  #contact .header {
+    font-size: 1.5rem;
+  }
 }
 
 @media (max-width: 770px) {
-    .navbar-collapse {
-        text-align: center;
-        padding-bottom: 1.25rem;
-    }
+  .navbar-collapse {
+    text-align: center;
+    padding-bottom: 1.25rem;
+  }
 
-    .container-nav {
-        display: none;
-    }
+  .container-nav {
+    display: none;
+  }
 
-    .navbar {
-        padding: 4% 6% 2%;
-    }
+  .navbar {
+    padding: 4% 6% 2%;
+  }
 
-    .ul-style {
-        padding: 0 0 0;
-    }
+  .ul-style {
+    padding: 0 0 0;
+  }
 }
 
 @media (max-width: 990px) {
-    .navbar-collapse {
-        text-align: center;
-        padding-bottom: 1.25rem;
-    }
+  .navbar-collapse {
+    text-align: center;
+    padding-bottom: 1.25rem;
+  }
 
-    .navbar {
-        padding: 4% 6% 2%;
-    }
+  .navbar {
+    padding: 4% 6% 2%;
+  }
 
-    #awards img {
-        margin-top: 15%;
-    }
+  #awards img {
+    margin-top: 15%;
+  }
 
-    .nav-item {
-        margin: 1rem 0 1.4rem 0;
-    }
+  .nav-item {
+    margin: 1rem 0 1.4rem 0;
+  }
 
-    .navbar-toggler {
-        visibility: hidden;
-    }
+  .navbar-toggler {
+    visibility: hidden;
+  }
 
-    .fixed-top {
-        visibility: visible;
-    }
+  .fixed-top {
+    visibility: visible;
+  }
 }

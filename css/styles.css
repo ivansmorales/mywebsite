@@ -277,6 +277,11 @@ i:hover {
   width: 100%;
 }
 
+/* Section: Experience */
+#experience .list-group-item.active {
+  background-color: #b2ffd6;
+}
+
 /* Section: Contact*/
 #contact .header {
   color: rgba(187, 205, 229, 0.71);
